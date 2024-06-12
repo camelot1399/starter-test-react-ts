@@ -1,9 +1,9 @@
 export interface Product {
-  id: number;
+  id: number | string;
   name: string;
 }
 
 export const mocProducts: Product[] = [
-  {id: 1, name: 'mouse'},
-  {id: 2, name: 'keyboard'},
-]
+  { id: 1, name: "mouse" },
+  { id: 2, name: "keyboard" },
+];
